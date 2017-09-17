@@ -31,10 +31,10 @@ optionsImage = Image.load("options.png")
 
 background = backgroundImages.desert
 tiles = Image.load("tiles.png")
-snake = Image.createEmpty(480, 272)
+snake = Image.createEmpty(1280, 720)
 
-scorePosition = { grass = { x = 377, y = 91 }, desert = { x = 374, y = 72 } }
-highScorePosition = { grass = { x = 377, y = 138 }, desert = { x = 374, y = 113 } }
+scorePosition = { grass = { x = 1177, y = 539 }, desert = { x = 1174, y = 520 } }
+highScorePosition = { grass = { x = 1177, y = 586 }, desert = { x = 1174, y = 561 } }
 scoreColor = { grass = Color.new(0, 0, 0), desert = Color.new(255, 255, 255) }
 
 -- load sounds
